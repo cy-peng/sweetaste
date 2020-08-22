@@ -63,12 +63,12 @@ a {
 }
 
 .container {
-  width: 940px;
+  max-width: 940px;
   margin: 0 auto;
 }
 
 .header {
-  width: 960px;
+  width: 1024px;
 }
 
 .ham {
