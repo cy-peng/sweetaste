@@ -1,21 +1,19 @@
-.header {
-  width: 1024px;
-}
-
 .ham {
   width: 24px;
   height: 24px;
   display: none;
+  padding-left: 40px;
+  padding-top: 20px;
+  cursor: pointer;
 }
 
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 216px;
+  width: 319px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .menu li {
@@ -27,32 +25,33 @@
 .menu a {
   padding: 10px;
   color: #3F5D45;
+  border-radius: 5px;
 }
 
 .menu a :hover {
-  color: white;
-  background-color: #3F5D45;
+  background-color: #EAF0ED;
 }
 
 .cart {
   padding-top: 25px;
   margin-right: 42px;
-  margin-left: 79px;
 }
 
 .cart a:hover {
   background-color: white;
 }
 
-.banner {
-  width: 940px;
-  height: 460px;
+.banner img {
+  display: block;
+  padding-left: 42px;
+  padding-right: 42px;
   margin: 0 auto;
 }
 
 .logo {
   width: 219.5px;
-  margin-right: 401.51px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .header {
