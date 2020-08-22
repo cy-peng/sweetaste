@@ -1,0 +1,21 @@
+  .payment{
+      position:relative;
+  }
+  .check{
+    position:absolute;
+    top:100px;
+    left:300px;
+    button{
+        font-weight:bolder;
+        color:#3F5D45;
+        background-color:#FFE180;
+        border:none;
+        font-size:24px;
+        line-height:20px;
+        width: 300px;
+        height: 65px;
+      }
+  }
+  .material-icons.md-48 { 
+    color:#3F5D45;
+  }

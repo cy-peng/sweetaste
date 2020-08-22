@@ -1,0 +1,112 @@
+.mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 116px;
+  background-color: #3F5D45;
+  color: white;
+  margin-top: 60px;
+  padding-top: 42px;
+}
+
+.mail p {
+  margin-right: 124px;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 800;
+}
+
+.logo2 {
+  width: 171.22px;
+  height: 26.6px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 100%;
+  background-color: #EAF0ED;
+  color: #3F5D45;
+  font-size: 16px;
+  padding-top: 38.9px;
+}
+
+.footer_left {
+  width: 270px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.footer_left ul {
+  margin-top: 115.5px;
+  margin-bottom: 30px;
+}
+
+.footer_left p {
+  margin-left: 450px;
+  width: 258px;
+}
+
+.footer_right h3 {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: bold;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  color: #3F5D45;
+}
+
+.s_logo {
+  width: 40px;
+  padding-left: 122px;
+  margin-right: 20px;
+}
+
+.mail_icon {
+  position: absolute;
+  top: 18px;
+  left: 25px;
+}
+
+.email {
+  padding: 16px 90px;
+  background-color: #EAF0ED;
+  line-height: 26px;
+  border: none;
+}
+
+.enter {
+  position: absolute;
+  left: 270px;
+  background-color: #FFE180;
+  padding: 14.5px 23px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+}
+
+.contact {
+  font-size: 16px;
+  line-height: 24px;
+}
+/*# sourceMappingURL=footer.css.map */

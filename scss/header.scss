@@ -1,0 +1,47 @@
+.header{
+    width: 960px;
+  }
+  .ham{
+    width: 24px;
+    height: 24px;
+    display:none;
+  }
+  .menu{
+    display:flex;
+    justify-content:space-between;
+    width: 216px;
+    li{
+        font-size:16px;
+        line-height:73px;
+        font-weight:bold;
+      }
+      a{
+        padding:10px;
+        color:#3F5D45;
+        :hover{
+            color:white;
+            background-color:#3F5D45;
+          }
+      }
+  }
+  .cart{
+    padding-top:25px;
+    margin-right:42px;
+    margin-left:79px;
+    a:hover{
+        background-color:white;
+      }
+  }
+  .banner{
+    width:940px;
+    height:460px;
+    margin:0 auto;
+  }
+  .logo{
+    width: 219.5px;
+    margin-right:401.51px;
+  }
+  .header{
+    display:flex;
+    justify-content:space-between;
+  }
