@@ -35,9 +35,6 @@ form {
 }
 
 .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   background-color: #EAF0ED;
@@ -48,13 +45,6 @@ form {
 
 .footer_left {
   width: 270px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   padding-bottom: 30px;
 }
 
@@ -99,10 +89,8 @@ form {
 }
 
 .enter {
-  position: absolute;
-  left: 285px;
   background-color: #FFE180;
-  padding: 15px 23px;
+  padding: 30px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   outline: none;
@@ -111,6 +99,13 @@ form {
 }
 
 .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-size: 16px;
   line-height: 24px;
 }

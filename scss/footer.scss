@@ -29,7 +29,6 @@ form{
 }
 
 .footer{
-  display:flex;
   justify-content:space-around;
   background-color:#EAF0ED;
   color:#3F5D45;
@@ -38,8 +37,6 @@ form{
 }
 .footer_left{
     width: 270px;
-    display: flex;
-    flex-direction: column;
     padding-bottom:30px;
     ul{
       margin-top:115.5px;
@@ -80,10 +77,8 @@ form{
 }
 
 .enter{
-  position:absolute;
-  left:285px;
   background-color:#FFE180;
-  padding: 15px 23px;
+  padding: 30px;
   box-sizing: border-box;
   outline:none;
   border:none;
@@ -91,6 +86,8 @@ form{
 }
 
 .contact{
+  display: flex;
+  flex-direction: column;
   font-size:16px;
   line-height:24px;
 }
