@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="scss/all.css">
 <script>
  AOS.init();
 </script>
@@ -13,41 +14,51 @@
 </head>
 <body>
   <div class="container">
-
-   <div class="header" data-aos="fade-up">
-    <img class="ham" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/4b3f0c5bd9792f8ce30b1238d5bf3ec28fb76ef2/student-week1/dehaze-24px.png" alt="">
-    <img class="logo" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/a3ed9441c2522e2b8edb35a9847121eb3e6af16e/student-week1/logo-all-dark.svg" alt="">
-    <ul class="menu">
-      <li><a href="#">首頁</a></li>
-      <li><a href="#">甜點</a></li>
-      <li><a href="#">登入</a></li>
-    </ul>
-    <div class="cart"><a href="#"><img  src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/shopping_cart.png?raw=true" alt=""></a></div>
-    </div>
-  <div class="payment">
-   <img class="banner" data-aos="flip-left" src="https://bit.ly/2P7GhNd" alt="">
+    <div class="header">
+     <img class="ham" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/4b3f0c5bd9792f8ce30b1238d5bf3ec28fb76ef2/student-week1/dehaze-24px.png" alt="">
+    <a href="index.html"><img class="logo" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/a3ed9441c2522e2b8edb35a9847121eb3e6af16e/student-week1/logo-all-dark.svg" alt=""></a>
+     <ul class="menu">
+       <li><a href="#">首頁</a></li>
+       <li><a href="#">甜點</a></li>
+       <li><a href="#">登入</a></li>
+     </ul>
+      <div class="cart"><a href="#">
+           <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/shopping_cart.png?raw=true" alt=""></a></div>
+     </div>
+  <div class="container payment">
+   <img class="banner" src="img/pay.png" alt="">
     <div class="check">
-        <i class="material-icons md-48">check_circle</i>
-        <img src="https://img.icons8.com/office/80/000000/horizontal-line.png"/>
-        <i class="material-icons md-48">check_circle</i>
-        <img src="https://img.icons8.com/office/80/000000/horizontal-line.png"/>
-        <i class="material-icons md-48">check_circle</i>
-      <h1>付款成功</h1>
-      <button>繼續逛逛</button>
+      <div>
+        <span class="material-icons">
+          check_circle
+      </span>
+      <span class="left"></span>
+        <span class="material-icons">
+          check_circle
+      </span>
+      <span class="right"></span>
+      <span class="material-icons">
+        check_circle</span>
+      </div>
+      <div>
+      <img src="https://public-v2links.adobecc.com/934efdb7-a7e4-47d5-572e-efece0914f62/component?params=component_id%3A541b0a19-672e-466c-a362-6e3e28968328&params=version%3A0&token=1598321835_da39a3ee_9f7ddf12d7a4142041652d04f59db6eb23240801&api_key=CometServer1" alt="">
+    </div>
+    <div><button class="bold">繼續逛逛</button></div>
     </div>
     </div>
   </div>
-    <div class="mail" data-aos="flip-left">    
+    <div class="mail">
+     
       <p> <img class="s_logo" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/logo-light.svg" alt="" >訂閱你我的甜蜜郵件</p>
-         <form action="#">
+         <form class="mail_form" action="#">
                     <img  class="mail_icon" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/mail-24px.png?raw=true" alt="">
                     <input class="email" type="text" name="email">
                     <button class="enter"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/arrow_forward-24px.png"></button>
-        </form>
+   </form>
     </div>
     
   <div class="footer">
-    <div class="footer_left"data-aos="zoom-in-down">
+    <div class="footer_left">
     <img class="logo2" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/4b3f0c5bd9792f8ce30b1238d5bf3ec28fb76ef2/student-week1/logotype-lg-dark.svg" alt="">
     <div class="contact">
     <ul>
@@ -55,14 +66,15 @@
       <li>sweetaste@email.com</li>
       <li>800 高雄市新興區幸福路 520 號</li>
     </ul>
-    <img class="icon" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/4b3f0c5bd9792f8ce30b1238d5bf3ec28fb76ef2/student-week1/ic-line%40.svg" alt="">
-    <img  class="icon" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/4b3f0c5bd9792f8ce30b1238d5bf3ec28fb76ef2/student-week1/ic-facebook.svg" alt="">   
+    <a href="#"><img class="icon" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/4b3f0c5bd9792f8ce30b1238d5bf3ec28fb76ef2/student-week1/ic-line%40.svg" alt=""></a>
+    <a href="#"><img  class="icon" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/4b3f0c5bd9792f8ce30b1238d5bf3ec28fb76ef2/student-week1/ic-facebook.svg" alt=""></a>
     </div>
       <p>© 2018 Sweetaste* All Rights Reserved</p>
     </div>
-    <div class="footer_right"  data-aos="zoom-out-right">
+    <div class="footer_right">
       <h3>吃甜點的好日子。<br>今天是個 — </h3>
     </div>
-</div>
+  </div>
+
 </body>
   </html>
