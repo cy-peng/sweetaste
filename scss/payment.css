@@ -24,6 +24,7 @@
 .check button {
   cursor: pointer;
   color: #3F5D45;
+  padding: 30px;
   background-color: #FFE180;
   border: none;
   font-size: 24px;
