@@ -90,6 +90,7 @@ form {
 
 .enter {
   background-color: #FFE180;
+  height: 60px;
   padding: 30px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
