@@ -263,36 +263,29 @@ a {
   top: 19px;
 }
 
-.page {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  margin-top: 80px;
-  margin-bottom: 50px;
+.page{
+  display:flex;
+  justify-content:flex-end;
+  margin-top:80px;
+  margin-bottom:50px;
 }
-
-.arrow a {
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-right: 26px;
-  padding-left: 26px;
+.arrow a{
+   padding-top:16px;
+   padding-bottom:16px;
+   padding-right:26px;
+   padding-left:26px;
 }
-
-.num a {
-  border: 1px solid #EAF0ED;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-right: 26px;
-  padding-left: 26px;
-  color: #3F5D45;
+.num a{
+   border:1px solid #EAF0ED;
+   padding-top:16px;
+   padding-bottom:16px;
+   padding-right:26px;
+   padding-left:26px;
+  color:#3F5D45;
 }
-
-.num a:hover {
-  background-color: #3F5D45;
-  color: white;
+.num a:hover{
+  background-color:#3F5D45;
+  color:white;
 }
 
 .payment {
