@@ -1,21 +1,20 @@
   .payment{
     
   }
-
   .payment_banner{
     width: 940px;
     height: 460px;
     margin-bottom:100px;
   }
-
   .check{
         height: 500px;
         display:flex;
         flex-direction:column;
-        align-items: stretch;
-        justify-content: center;
+        justify-content:space-around;
+    span{
+      color:#3F5D45;
+    }
     button{
-        cursor: pointer; 
         color:#3F5D45;
         padding:30px;
         background-color:#FFE180;
@@ -27,11 +26,11 @@
       }
       .right {
         width: 400px;
-    }
-    .left {
-      border-bottom: 1px solid #3F5D45;
-      width: 400px;
-  }
+      }
+      .left {
+        border-bottom: 1px solid #3F5D45;
+        width: 400px;
+      }
   }
   .material-icons.md-48 { 
     color:#3F5D45;

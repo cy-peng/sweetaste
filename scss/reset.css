@@ -68,4 +68,8 @@ a {
   max-width: 940px;
   margin: 0 auto;
 }
+
+.pointer {
+  cursor: pointer;
+}
 /*# sourceMappingURL=reset.css.map */
