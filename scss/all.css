@@ -322,13 +322,15 @@ a {
   height: 65px;
 }
 
-.check .borderRight {
+.check .right {
   border-bottom: 1px solid #3F5D45;
   width: 66px;
   display: inline-block;
-  position: absolute;
-  top: 12px;
-  left: 109px;
+}
+.check .left {
+  border-bottom: 1px solid #3F5D45;
+  width: 66px;
+  display: inline-block;
 }
 
 .material-icons.md-48 {
@@ -509,6 +511,15 @@ form {
   }
   .product {
     margin-bottom: 20px;
+  }
+  .check{
+    position: absolute;
+  }
+  .check button{
+    position: absolute;
+    top: 330px;
+    left:-5px;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=all.css.map */
