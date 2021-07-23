@@ -264,11 +264,37 @@ a {
 }
 
 .page{
-  display:flex;
-  justify-content:flex-end;
-  margin-top:80px;
-  margin-bottom:50px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
+
+.page li{
+  box-sizing: border-box;
+  width: 60px;
+  border: 1px solid var(--secondary-color);
+  margin: 0px 0px 0px -1px;
+  text-align: center;
+}
+.pageNum {
+  display: block;
+  background: #ffffff;
+  color: var(--main-color);
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 20px;
+  padding: 20px 0;
+  transition: .4s;
+}
+.pageLeft img,.pageRight img{
+  padding: 18px 0;
+}
+.pageNum:hover{
+  background: var(--main-color);
+  color: var(--secondary-color);
+}
+
 .arrow a{
    padding-top:16px;
    padding-bottom:16px;
